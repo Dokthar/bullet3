@@ -580,8 +580,8 @@ public:
 		btScalar				kSKHR_CL;		// Soft vs kinetic hardness [0,1] (cluster only)
 		btScalar				kSSHR_CL;		// Soft vs soft hardness [0,1] (cluster only)
 		btScalar				kSR_SPLT_CL;	// Soft vs rigid impulse split [0,1] (cluster only)
-		btScalar				kSK_SPLT_CL;	// Soft vs rigid impulse split [0,1] (cluster only)
-		btScalar				kSS_SPLT_CL;	// Soft vs rigid impulse split [0,1] (cluster only)
+		btScalar				kSK_SPLT_CL;	// Soft vs kinetic impulse split [0,1] (cluster only)
+		btScalar				kSS_SPLT_CL;	// Soft vs soft impulse split [0,1] (cluster only)
 		btScalar				maxvolume;		// Maximum volume ratio for pose
 		btScalar				timescale;		// Time scale
 		int						viterations;	// Velocities solver iterations
